@@ -1,0 +1,14 @@
+net: "/root/code/caffe/models/meu_modelo/train_val.prototxt"
+test_iter: 1000
+test_interval: 5000
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 11000
+display: 20
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 11000
+snapshot_prefix: "/root/code/caffe/models/meu_modelo/train"
+solver_mode: CPU
